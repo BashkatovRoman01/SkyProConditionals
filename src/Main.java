@@ -43,8 +43,14 @@ public class Main {
             System.out.println("В вагоне нет стоячих мест");
         }
 
-
-
+        // Задание 4
+        System.out.println("Задание 4");
+        int age1 = 18;
+        if (age1 >= 18) {
+            System.out.println("Поздавляем с совершеннолетием!");
+        } else {
+            System.out.println("Возраст совершеннолетия ещё не наступил, и нужно немного подождать");
+        }
 
     }
 }
