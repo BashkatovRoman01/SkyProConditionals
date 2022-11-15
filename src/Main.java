@@ -54,14 +54,32 @@ public class Main {
 
         // Задание 5
         System.out.println("Задание 5");
-        int yearsOld = 28;
+        int yearsOld = 5;
         if (yearsOld >= 7 && yearsOld < 18) {
             System.out.println("Ребенок ходит в школу");
         }
         else if (yearsOld >= 18 && yearsOld < 24) {
             System.out.println("Человек уже закончил школу и может отправляться в университет");
-        } else  {
+        } else if (yearsOld >= 24) {
             System.out.println("Человек окончил университет и ему пора искать первую работу");
+        }
+
+        // Задание 6
+        System.out.println("Задание 6");
+        int seatsTotal1 = 102;
+        int seats1= 60;
+        int stayingSeats1 = seatsTotal1 - seats1;
+        int seatsOccupied1 = 60;
+        int stayingSeatsOccupied1 = 48;
+        if (seatsOccupied1 < seats1) {
+            System.out.println(" В вагоне осталось " + (seats1 - seatsOccupied1) + " сидячих мест");
+        } else {
+            System.out.println("Сидячих мест нет");
+        }
+        if (stayingSeats1 > stayingSeatsOccupied1) {
+            System.out.println("В вагоне осталось " + (stayingSeats1 - stayingSeatsOccupied1) + " стоячих мест");
+        } else {
+            System.out.println("Стоячих мест нет");
         }
 
 
