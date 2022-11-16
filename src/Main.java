@@ -54,13 +54,13 @@ public class Main {
 
         // Задание 5
         System.out.println("Задание 5");
-        int yearsOld = 5;
+        int yearsOld = 28;
         if (yearsOld >= 7 && yearsOld < 18) {
             System.out.println("Ребенок ходит в школу");
         }
         else if (yearsOld >= 18 && yearsOld < 24) {
             System.out.println("Человек уже закончил школу и может отправляться в университет");
-        } else if (yearsOld >= 24) {
+        } else {
             System.out.println("Человек окончил университет и ему пора искать первую работу");
         }
 
@@ -69,7 +69,7 @@ public class Main {
         int seatsTotal1 = 102;
         int seats1= 60;
         int stayingSeats1 = seatsTotal1 - seats1;
-        int seatsOccupied1 = 60;
+        int seatsOccupied1 = 80;
         int stayingSeatsOccupied1 = 48;
         if (seatsOccupied1 < seats1) {
             System.out.println(" В вагоне осталось " + (seats1 - seatsOccupied1) + " сидячих мест");
@@ -80,6 +80,22 @@ public class Main {
             System.out.println("В вагоне осталось " + (stayingSeats1 - stayingSeatsOccupied1) + " стоячих мест");
         } else {
             System.out.println("Стоячих мест нет");
+        }
+
+        // Задание 8
+        System.out.println("Задание 8");
+        int age2 = 27;
+        if (age2 >= 2 && age2 <= 6) {
+            System.out.println("Если возраст человека равен " + age2 + " , то ему нужно ходить в детский сад") ;
+        }
+        else if (age2 >= 7 && age2 <= 18) {
+            System.out.println("Если возраст человека равен " + age2 + " , то ему нужно ходить в школу") ;
+        }
+        else if (age2 >= 18 && age2 <= 24) {
+            System.out.println("Если возраст человека равен " + age2 + " , то его место в университете") ;
+        }
+        else if (age2 > 24) {
+            System.out.println("Если возраст человека равен " + age2 + " , то ему пора ходить на работу") ;
         }
 
 
